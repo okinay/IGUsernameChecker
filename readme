@@ -1,0 +1,30 @@
+# Instagram Username Checker
+
+Welcome to the Instagram Username Checker! This simple tool allows you to check the availability of Instagram usernames. Please note that the results may not be 100% accurate, and it is recommended to verify the username's availability directly on the Instagram app or website.
+
+## Disclaimer
+
+This program is created for educational purposes only. It is not intended to be used for any malicious or harmful activities. The developers do not endorse or encourage any unethical or illegal use of this tool.
+
+## Features
+
+1. **Single Username Checker**: Check the availability of a single username by providing the username you want to search.
+
+2. **Batch Username Checker**: Check a list of usernames in batch mode from a file (usernames.txt) and export the results to an output file (output.txt).
+
+## Prerequisites
+
+- Python 3.x
+- Requests library (You can install it using `pip install requests`)
+
+## Usage
+
+### Single Username Checker
+
+1. Open your terminal or command prompt.
+
+2. Navigate to the project directory.
+
+3. Run the following command:
+   ```bash
+   python single_username_checker.py
