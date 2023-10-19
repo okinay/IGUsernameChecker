@@ -16,6 +16,7 @@ This program is created for educational purposes only. It is not intended to be 
 
 - Python 3.x
 - Requests library (You can install it using `pip install requests`)
+- BeautifulSoup library (You can install it using `pip install beautifulsoup4`)
 
 ## Usage
 
