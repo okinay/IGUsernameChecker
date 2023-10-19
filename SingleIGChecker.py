@@ -11,16 +11,14 @@ def check_instagram_username(username):
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        # Cek apakah halaman mengandung teks "Sorry, this page isn't available."
         if username not in soup.get_text():
-            return f"Username '{username}' tersedia di Instagram."
+            return f"Username '{username}' is available on Instagram."
         else:
-            return f"Username '{username}' tidak tersedia di Instagram."
-        #return soup.get_text()
+            return f"Username '{username}' is not available on  Instagram."
     else:
-        return "Terjadi kesalahan dalam mengakses Instagram."
+        return "Error connecting to Instagram."
     
 if __name__ == "__main__":
-    username = input("Masukkan username yang ingin Anda periksa di Instagram: ")
+    username = input("Enter the username you want to check: ")
     result = check_instagram_username(username)
     print(result)
