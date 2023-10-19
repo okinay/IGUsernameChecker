@@ -40,8 +40,8 @@ This program is created for educational purposes only. It is not intended to be 
 6. The program will check the availability of the usernames and save the results in an output.txt file.
 7. Open the output.txt file to view the results.
 
-###License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Acknowledgments
+## Acknowledgments
 Special thanks to the Python community for their contributions and support.
